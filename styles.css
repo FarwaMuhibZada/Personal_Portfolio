@@ -87,3 +87,107 @@ section {
   align-items: center;
   justify-content: flex-start;
 }
+
+.slide {
+  margin-bottom: 20px;
+}
+
+.one {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 0 15px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 28px;
+  border-radius: 5px;
+  background: #85b4ff;
+  color: #fff;
+}
+
+.two {
+  display: inline-block;
+  color: #ccc;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.home-text p {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+
+}
+
+.home-text h1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  margin: 8 8 8px;
+}
+
+.home-text h3{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 35px;
+}
+
+.button {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px;
+  background: #85b4ff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: all 0.45s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about-img img {
+  max-width: 530px;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about-text h2{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.about-text h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color:#fff;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+
+.bout-text p {
+  color: #ccc;
+  font-size: 1.1rem;
+  font-family: cursive;
+  line-height: 1.8;
+  margin-bottom: 4rem;
+}
