@@ -473,6 +473,7 @@ form textarea {
 }
 
 @media (max-width: 920) {
+
  .home-text p {
     font-size: 1rem;
     line-height: 1.4;
