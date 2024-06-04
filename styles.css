@@ -359,6 +359,10 @@ section {
   margin-bottom: 12px;
 }
 
+.navList a:hover {
+  color: #85b4ff;
+}
+
 .list li a {
   display: block;
   color: #ccc;
@@ -368,10 +372,6 @@ section {
 
 .list li a:hover {
   color: #fff;
-}
-
-.navList a:hover {
-  color: #85b4ff;
 }
 
 .contact-icons i {
