@@ -370,11 +370,6 @@ section {
   transition: all 0.45 ease;
 }
 
-.list li a:hover {
-  color: #fff;
-  transform: translateY(5px);
-}
-
 .contact-icons i {
   height: 45px;
   width: 45px;
@@ -399,7 +394,7 @@ section {
 form textarea {
   width: 100%;
   padding: 14px;
-  background:#585656;
+  background: #585656;
   color: #ffff;
   border: none;
   outline: none;
