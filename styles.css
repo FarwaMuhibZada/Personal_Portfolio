@@ -370,6 +370,10 @@ section {
   transition: all 0.45 ease;
 }
 
+.list li a:hover {
+  color: #fff;
+}
+
 .contact-icons i {
   height: 45px;
   width: 45px;
@@ -477,7 +481,7 @@ form textarea {
     font-size: 2rem;
     font-weight: 600;
   }
-  
+
   .home-text p {
     font-size: 1rem;
     line-height: 1.4;
