@@ -55,10 +55,6 @@ span {
   transition: all 0.45s ease;
 }
 
-.navList a:hover {
-  color: #85b4ff;
-}
-
 .navList a.active {
   color: #85b4ff;
 }
@@ -372,6 +368,10 @@ section {
 
 .list li a:hover {
   color: #fff;
+}
+
+.navList a:hover {
+  color: #85b4ff;
 }
 
 .contact-icons i {
