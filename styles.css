@@ -69,14 +69,15 @@ span {
 }
 
 section {
-  padding: 160px 15% 120px;
+  padding: 400px 15% 120px;
 }
 
 .home {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url(./img/bg.jpg);
+  background-image: url(img/31.jpg);
+  /* filter: saturate(60%); */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -152,6 +153,7 @@ section {
 }
 
 .about {
+  padding-top: 120px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -188,6 +190,7 @@ section {
 }
 
 .services {
+  padding-top: 120px;
   background-color: #1a1a1a;
 }
 
@@ -243,6 +246,10 @@ section {
 .box:hover {
   transform: translateY(-8px);
   cursor: pointer;
+}
+
+.portfolio {
+  padding-top: 120px;
 }
 
 .portfolio-content {
@@ -317,7 +324,7 @@ section {
 }
 
 .content {
-  background: #282828;
+  background: #1a1a1a;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -325,7 +332,8 @@ section {
 }
 
 .contact {
-  background: #282828;
+  padding-top: 120px;
+  background: #1a1a1a;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
