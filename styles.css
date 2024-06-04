@@ -222,13 +222,12 @@ section {
   background: #2a2a2a;
   padding: 35px 35px;
   border-radius: 8px;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .s-icons i {
   font-size: 32px;
   margin-bottom: 28px;
-
 }
 
 .box h3 {
@@ -364,16 +363,16 @@ section {
   margin-bottom: 12px;
 }
 
-.list li a:hover {
-  color: #fff;
-  transform: translateY(5px);
-}
-
 .list li a {
   display: block;
   color: #ccc;
   font-size: 14px;
   transition: all 0.45 ease;
+}
+
+.list li a:hover {
+  color: #fff;
+  transform: translateY(5px);
 }
 
 .contact-icons i {
@@ -396,7 +395,8 @@ section {
   position: relative;
 }
 
-.contact-form form input, form textarea {
+.contact-form form input,
+form textarea {
   width: 100%;
   padding: 14px;
   background:#585656;
@@ -419,7 +419,7 @@ section {
   background: #85b4ff;
   color: #fff;
   width: 160px;
-  transition: all .45 ease;
+  transition: all 0.45 ease;
 }
 
 .contact-form .submit:hover {
@@ -452,7 +452,7 @@ section {
   background: #00a6ff;
 }
 
-@media (max-width:1480px) {
+@media (max-width: 1480px) {
   header {
     padding: 12px 2.5px;
     transition: 0.1s;
@@ -474,7 +474,7 @@ section {
 
   .home {
     height: 87vh;
-  } 
+  }
 }
 
 @media (max-width: 920) {
@@ -502,7 +502,7 @@ section {
     height: auto;
     max-width: 100%;
   }
-  
+
   .contact {
     grid-template-columns: 1fr;
   }
@@ -513,8 +513,8 @@ section {
     font-size: 1rem;
     line-height: 1.4;
   }
-  
-  .home-text h1{
+
+  .home-text h1 {
     font-size: 2rem;
     font-weight: 600;
   }
@@ -532,7 +532,6 @@ section {
     grid-template-columns: 1fr;
   }
 
-  
   #menu-icon {
     display: block;
   }
@@ -563,7 +562,5 @@ section {
 
   .navList a:hover {
     top: 100%;
-
   }
 }
-
