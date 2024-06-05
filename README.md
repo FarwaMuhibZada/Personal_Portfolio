@@ -7,6 +7,67 @@
 
 
 ```css
+@media (max-width: 480px) {
+  .home-text p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .home-text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .home-text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .navList {
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: #2a2a2a;
+    text-align: left;
+    transition: all 0.45s ease;
+  }
+
+  .navList a {
+    display: block;
+    margin: 17px;
+    font-size: 20px;
+    transition: all 0.45s ease;
+    color: #ffff;
+  }
+
+  .navList a.active {
+    color: #fff;
+  }
+
+  .navList a:hover {
+    top: 100%;
+  }
+  
+  .navList.open {
+    top: 100%;
+
+  }
+}
 
 
 ```
@@ -15,16 +76,23 @@
 
 ## Demo 📸
 
-life demo link [()]
-here is a demo of Personal Portfolio Webpage.
+life demo link [( https://farwamuhibzada.github.io/Personal_Portfolio/)]
 
-![first page]()
+how it looks in desktop screen
 
-![second page]()
+![first page](./img/desktop2.PNG)
 
-how it looks in smalll screen size
+![second page](./img/dwsktop2.PNG)
 
-![second page]()
+how it looks in ipad screen
+
+![second page](./img/ipad.PNG)
+
+how it looks in smartphone screen
+
+![second page](./img/mobile.PNG)
+
+
 
 
 
