@@ -465,7 +465,7 @@ form textarea {
   }
 
   #menu-icon {
-    display: block;
+    display: none;
   }
 
   .end {
