@@ -517,7 +517,7 @@ form textarea {
   .contact {
     grid-template-columns: 1fr;
   }
-  
+
   .navList {
     position: absolute;
     top: -1000px;
