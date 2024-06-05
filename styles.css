@@ -464,14 +464,18 @@ form textarea {
     padding: 15px 3% 60px;
   }
 
+  #menu-icon {
+    display: block;
+  }
+
   .end {
     padding: 15px 3%;
   }
 }
 
 @media (max-width: 1100px) {
-  .home-text {
-    font-size: 2.5rem;
+  .home-text h1{
+    font-size: 1rem;
   }
 
   .home {
@@ -479,10 +483,11 @@ form textarea {
   }
 }
 
-@media (max-width: 920) {
+@media (max-width: 920px) {
   .home-text h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
+    display: none;
   }
 
   .home-text p {
@@ -491,7 +496,7 @@ form textarea {
   }
 
   .home-text h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
@@ -511,6 +516,25 @@ form textarea {
 
   .contact {
     grid-template-columns: 1fr;
+  }
+  .navList {
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: #2a2a2a;
+    text-align: left;
+    transition: all 0.45s ease;
+  }
+
+  .navList a {
+    display: block;
+    margin: 17px;
+    font-size: 20px;
+    transition: all 0.45s ease;
+    color: #ffff;
   }
 }
 
