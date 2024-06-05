@@ -505,6 +505,10 @@ form textarea {
     max-width: 100%;
   }
 
+  #menu-icon {
+    display: block;
+  }
+
   .contact {
     grid-template-columns: 1fr;
   }
