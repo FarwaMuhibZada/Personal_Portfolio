@@ -87,6 +87,7 @@ section {
 
 .slide {
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .one {
@@ -187,6 +188,21 @@ section {
   font-family: cursive;
   line-height: 1.8;
   margin-bottom: 4rem;
+}
+
+.s-img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#demolinks {
+  color: #00a6ff;
+  text-decoration: underline;
+}
+
+.s-img img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .services {
