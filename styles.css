@@ -191,7 +191,7 @@ section {
 }
 
 .s-img {
-  width: 300px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -227,7 +227,7 @@ section {
 
 .services-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(258px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
   align-items: center;
   gap: 2.5rem;
   margin-top: 5rem;
