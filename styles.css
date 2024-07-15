@@ -23,7 +23,7 @@ header {
   align-items: center;
   justify-content: center;
   background: transparent;
-  padding: 22px 15px;
+  padding: 10px 15px;
   border-bottom: 1px solid transparent;
   transition: all 0.45s ease;
   background-color: #2a2a2a;
@@ -70,7 +70,7 @@ span {
 }
 
 section {
-  padding: 400px 15% 120px;
+  padding: 400px 15% 1px;
 }
 
 .home {
@@ -86,8 +86,8 @@ section {
 }
 
 .slide {
-  margin-bottom: 20px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .one {
@@ -154,6 +154,7 @@ section {
 }
 
 .about {
+  margin: 20px;
   padding-top: 120px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -556,7 +557,7 @@ form textarea {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .home-text p {
     font-size: 1rem;
     line-height: 1.4;
@@ -611,4 +612,8 @@ form textarea {
   .navList a:hover {
     top: 100%;
   }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  
 }

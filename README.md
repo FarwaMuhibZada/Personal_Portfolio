@@ -24,7 +24,7 @@
   }
 
   .about {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 
   .contact {
