@@ -612,8 +612,4 @@ form textarea {
   .navList a:hover {
     top: 100%;
   }
-  .about {
-    grid-template-columns: 1fr;
-  }
-  
 }
